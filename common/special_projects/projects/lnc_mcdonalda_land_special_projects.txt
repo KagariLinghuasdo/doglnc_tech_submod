@@ -1,0 +1,49 @@
+# 特殊项目 ID（全局唯一）
+sp_land_mcdonalds_tech = {
+    specialization = specialization_land
+
+    project_tags = sp_tag_tank
+
+    icon = GFX_sp_land_flamethrower_tank
+
+    ai_will_do = {
+		base = 0
+	}
+
+
+    available = {
+        FROM = {
+			has_country_flag = lnc_start_mcdonald_research_flag
+		}
+    }
+
+    breakthrough_cost = {
+		specialization_land = 1
+	}
+
+    prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+
+    project_output = {
+        country_effects = {
+			set_country_flag = lnc_finish_mcdonald_research_flag
+        }
+    }
+    generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_resource_scarcity
+	}
+
+}

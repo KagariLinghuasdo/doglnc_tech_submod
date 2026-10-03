@@ -1,0 +1,382 @@
+lnc_mcdonalds_decisions = {
+	decison_eat_lnc_mcdonalds = {
+
+		allowed = {		
+		}
+
+		available = {
+			has_country_flag = got_Liewartine_flag
+
+		}
+
+		visible = {
+
+			has_country_flag = got_Liewartine_flag
+
+		}
+
+		fire_only_once = yes
+
+		days_remove = 0
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			
+		}
+
+		remove_effect = {
+			country_event = LNC_mcdonalds_event.1
+		}
+	}      
+	decison_research_lnc_mcdonalds_infantry = {
+
+			allowed = {		
+			}
+
+			available = {
+				has_country_flag = lnc_finish_mcdonald_research_flag
+				NOT = { has_country_flag = lnc_mcdonald_researching_flag }
+			}
+
+			visible = {
+				has_country_flag = got_Liewartine_flag
+				has_country_flag = lnc_finish_mcdonald_research_flag
+			}
+
+			fire_only_once = yes
+
+			days_remove = 60
+
+			ai_will_do = {
+				factor = 0
+			}
+			
+			complete_effect = {
+				add_timed_idea = {
+					idea = ideas_LNC_temporary_research_penalty
+					days = 60
+				}
+				hidden_effect = {
+					set_country_flag = lnc_mcdonald_researching_flag
+				}
+			}
+
+			remove_effect = {
+				hidden_effect = {
+					clr_country_flag = lnc_mcdonald_researching_flag
+				}
+				set_technology = {
+					lnc_mcdonalds_infantry = 1	
+				}
+			}
+	}
+	decison_research_lnc_mcdonalds_tank_at = {
+
+			allowed = {		
+			}
+
+			available = {
+				has_country_flag = lnc_finish_mcdonald_research_flag
+				NOT = { has_country_flag = lnc_mcdonald_researching_flag }
+				has_tech = interwar_antitank
+
+			}
+
+			visible = {
+				has_country_flag = got_Liewartine_flag
+				has_country_flag = lnc_finish_mcdonald_research_flag
+			}
+
+			fire_only_once = yes
+
+			days_remove = 60
+
+			ai_will_do = {
+				factor = 0
+			}
+			
+			complete_effect = {
+				add_timed_idea = {
+					idea = ideas_LNC_temporary_research_penalty
+					days = 60
+				}
+				hidden_effect = {
+					set_country_flag = lnc_mcdonald_researching_flag
+				}
+			}
+
+			remove_effect = {
+				hidden_effect = {
+					clr_country_flag = lnc_mcdonald_researching_flag
+				}
+				set_technology = {
+					lnc_mcdonalds_tank_at = 1	
+				}
+			}
+	}
+	decison_research_lnc_mcdonalds_maintenance = {
+
+			allowed = {		
+			}
+
+			available = {
+				has_country_flag = lnc_finish_mcdonald_research_flag
+				NOT = { has_country_flag = lnc_mcdonald_researching_flag }
+				has_tech = tech_maintenance_company2
+
+			}
+
+			visible = {
+				has_country_flag = got_Liewartine_flag
+				has_country_flag = lnc_finish_mcdonald_research_flag
+			}
+
+			fire_only_once = yes
+
+			days_remove = 60
+
+			ai_will_do = {
+				factor = 0
+			}
+			
+			complete_effect = {
+				add_timed_idea = {
+					idea = ideas_LNC_temporary_research_penalty
+					days = 60
+				}
+				hidden_effect = {
+					set_country_flag = lnc_mcdonald_researching_flag
+				}
+			}
+
+			remove_effect = {
+				hidden_effect = {
+					clr_country_flag = lnc_mcdonald_researching_flag
+				}
+				set_technology = {
+					lnc_mcdonalds_maintenance = 1	
+				}
+			}
+	}
+	decison_research_lnc_mcdonalds_land_cruiser_tech = {
+
+			allowed = {		
+			}
+
+			available = {
+				has_country_flag = lnc_finish_mcdonald_research_flag
+				NOT = { has_country_flag = lnc_mcdonald_researching_flag }
+				has_tech = improved_heavy_tank_chassis
+			}
+
+			visible = {
+				has_country_flag = got_Liewartine_flag
+				has_country_flag = lnc_finish_mcdonald_research_flag
+			}
+
+			fire_only_once = yes
+
+			days_remove = 60
+
+			ai_will_do = {
+				factor = 0
+			}
+			
+			complete_effect = {
+				add_timed_idea = {
+					idea = ideas_LNC_temporary_research_penalty
+					days = 60
+				}
+				hidden_effect = {
+					set_country_flag = lnc_mcdonald_researching_flag
+				}
+			}
+
+			remove_effect = {
+				hidden_effect = {
+					clr_country_flag = lnc_mcdonald_researching_flag
+				}
+				set_technology = {
+					lnc_mcdonalds_land_cruiser_tech = 1	
+				}
+				complete_special_project = {
+					project = sp:sp_land_land_cruiser
+				}
+			}
+	}
+
+	decison_research_lnc_mcdonalds_turret_small_cannon = {
+			allowed = {		
+			}
+
+			available = {
+				has_country_flag = lnc_finish_mcdonald_research_flag
+				NOT = { has_country_flag = lnc_mcdonald_researching_flag }
+				has_tech = 	gwtank_chassis
+			}
+
+			visible = {
+				has_country_flag = got_Liewartine_flag
+				has_country_flag = lnc_finish_mcdonald_research_flag
+			}
+
+			fire_only_once = yes
+
+			days_remove = 30
+
+			ai_will_do = {
+				factor = 0
+			}
+			
+			complete_effect = {
+				add_timed_idea = {
+					idea = ideas_LNC_temporary_research_penalty
+					days = 30
+				}
+				hidden_effect = {
+					set_country_flag = lnc_mcdonald_researching_flag
+				}
+			}
+
+			remove_effect = {
+				hidden_effect = {
+					clr_country_flag = lnc_mcdonald_researching_flag
+				}
+				set_technology = {
+					lnc_mcdonalds_turret_small_cannon = 1	
+				}
+			}
+	}
+	decison_research_lnc_mcdonalds_medium_cannon_turret = {
+
+			allowed = {		
+			}
+
+			available = {
+				has_country_flag = lnc_finish_mcdonald_research_flag
+				NOT = { has_country_flag = lnc_mcdonald_researching_flag }
+				has_tech = 	antitank3
+			}
+
+			visible = {
+				has_country_flag = got_Liewartine_flag
+				has_country_flag = lnc_finish_mcdonald_research_flag
+			}
+
+			fire_only_once = yes
+
+			days_remove = 30
+
+			ai_will_do = {
+				factor = 0
+			}
+			
+			complete_effect = {
+				add_timed_idea = {
+					idea = ideas_LNC_temporary_research_penalty
+					days = 30
+				}
+				hidden_effect = {
+					set_country_flag = lnc_mcdonald_researching_flag
+				}
+			}
+
+			remove_effect = {
+				hidden_effect = {
+					clr_country_flag = lnc_mcdonald_researching_flag
+				}
+				set_technology = {
+					lnc_mcdonalds_medium_cannon_turret = 1	
+				}
+			}
+	}
+	decison_research_lnc_mcdonalds_high_velocity_cannon_2 = {
+
+			allowed = {		
+			}
+
+			available = {
+				has_country_flag = lnc_finish_mcdonald_research_flag
+				NOT = { has_country_flag = lnc_mcdonald_researching_flag }
+				has_tech = 	antitank4
+			}
+
+			visible = {
+				has_country_flag = got_Liewartine_flag
+				has_country_flag = lnc_finish_mcdonald_research_flag
+			}
+
+			fire_only_once = yes
+
+			days_remove = 30
+
+			ai_will_do = {
+				factor = 0
+			}
+			
+			complete_effect = {
+				add_timed_idea = {
+					idea = ideas_LNC_temporary_research_penalty
+					days = 30
+				}
+				hidden_effect = {
+					set_country_flag = lnc_mcdonald_researching_flag
+				}
+			}
+
+			remove_effect = {
+				hidden_effect = {
+					clr_country_flag = lnc_mcdonald_researching_flag
+				}
+				set_technology = {
+					lnc_mcdonalds_high_velocity_cannon_2 = 1	
+				}
+			}
+	}
+	decison_research_lnc_mcdonalds_high_velocity_cannon_3 = {
+
+			allowed = {		
+			}
+
+			available = {
+				has_country_flag = lnc_finish_mcdonald_research_flag
+				NOT = { has_country_flag = lnc_mcdonald_researching_flag }
+				has_tech = 	antitank5
+			}
+
+			visible = {
+				has_country_flag = got_Liewartine_flag
+				has_country_flag = lnc_finish_mcdonald_research_flag
+			}
+
+			fire_only_once = yes
+
+			days_remove = 30
+
+			ai_will_do = {
+				factor = 0
+			}
+			
+			complete_effect = {
+				add_timed_idea = {
+					idea = ideas_LNC_temporary_research_penalty
+					days = 30
+				}
+				hidden_effect = {
+					set_country_flag = lnc_mcdonald_researching_flag
+				}
+			}
+
+			remove_effect = {
+				hidden_effect = {
+					clr_country_flag = lnc_mcdonald_researching_flag
+				}
+				set_technology = {
+					lnc_mcdonalds_high_velocity_cannon_3 = 1	
+				}
+			}
+	}                
+}

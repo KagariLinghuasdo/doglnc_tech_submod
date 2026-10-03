@@ -1,0 +1,84 @@
+technologies = {
+	lnc_mcdonalds_infantry = {
+		allow_branch = {
+			has_country_flag = got_Liewartine_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = { industry }
+		enable_equipments = { lnc_mcdonalds_burger lnc_mcdonalds_burger_1 }
+		enable_subunits = { LNC_mcdonalds_infantry }
+	}
+	
+	lnc_mcdonalds_turret_small_cannon = {
+		allow_branch = {
+			has_country_flag = got_Liewartine_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = { industry }
+		enable_equipments = {  }
+		enable_equipment_modules = { mcdonalds_turret_small_cannon }
+	}
+	lnc_mcdonalds_tank_at = {
+		allow_branch = {
+			has_country_flag = got_Liewartine_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = { industry }
+		enable_equipments = {  }
+		enable_subunits = { LNC_mcdonalds_medium_tank_at LNC_mcdonalds_heavy_tank_at }
+	}
+	lnc_mcdonalds_land_cruiser_tech = {
+		allow_branch = {
+			has_country_flag = got_Liewartine_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = { industry }
+		enable_subunits = { LNC_mcdonalds_land_cruiser }
+	}
+	lnc_mcdonalds_medium_cannon_turret = {
+		allow_branch = {
+			has_country_flag = got_Liewartine_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = { industry }
+		enable_equipment_modules = { mcdonalds_medium_cannon_turret }
+		
+	}
+	lnc_mcdonalds_high_velocity_cannon_2 = {
+		allow_branch = {
+			has_country_flag = got_Liewartine_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = { industry }
+		enable_equipment_modules = { mcdonalds_high_velocity_cannon_2 }
+		
+	}
+	lnc_mcdonalds_high_velocity_cannon_3 = {
+		allow_branch = {
+			has_country_flag = got_Liewartine_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = { industry }
+		enable_equipment_modules = { mcdonalds_high_velocity_cannon_3 }
+		
+	}
+	lnc_mcdonalds_maintenance = {
+		allow_branch = {
+			has_country_flag = got_Liewartine_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = { industry }
+		enable_equipment_modules = { mcdonalds_maintenance }
+	}
+
+
+	
+}

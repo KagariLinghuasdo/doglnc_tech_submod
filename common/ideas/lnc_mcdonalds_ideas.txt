@@ -1,0 +1,11 @@
+ideas = {
+    country = {
+        ideas_LNC_temporary_research_penalty = {
+            picture = generic_scientist
+            allowed = { always = yes }
+            modifier = {
+                research_speed_factor = -0.20
+            }
+        }
+    }
+}

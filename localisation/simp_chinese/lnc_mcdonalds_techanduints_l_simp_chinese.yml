@@ -1,0 +1,35 @@
+﻿l_simp_chinese:
+  sp_land_mcdonalds_tech:"麦当劳计划"
+
+  lnc_mcdonalds_infantry:"麦当劳步兵"
+  LNC_mcdonalds_infantry:"麦当劳步兵"
+  lnc_mcdonalds_infantry_desc:"给士兵吃麦当劳可以提高作战能力"
+  lnc_mcdonalds_burger:"麦当劳汉堡"
+  lnc_mcdonalds_burger_1:"麦辣鸡腿堡"
+  lnc_mcdonalds_burger_1_desc:"香辣可口的麦辣鸡腿堡，让士兵们大快朵颐"
+
+  lnc_mcdonalds_tank_at:"麦当劳自行反坦克炮"
+  LNC_mcdonalds_medium_tank_at:"麦当劳中型自行反坦克炮"
+  LNC_mcdonalds_heavy_tank_at:"麦当劳重型自行反坦克炮"
+
+  lnc_mcdonalds_land_cruiser_tech:"麦当劳陆地巡洋舰"
+  LNC_mcdonalds_land_cruiser:"麦当劳陆地巡洋舰"
+
+  lnc_mcdonalds_maintenance:"麦乐送呼叫中心"
+  mcdonalds_maintenance:"麦乐送呼叫中心"
+  mcdonalds_maintenance_desc:"麦乐送可以让坦克更加高效的补给"
+
+  lnc_mcdonalds_turret_small_cannon:"小型麦当劳薯条加农炮"
+  mcdonalds_turret_small_cannon:"小型麦当劳薯条加农炮"
+  mcdonalds_turret_small_cannon_desc:"我说薯条二/三/四重奏特别好吃"
+  lnc_mcdonalds_medium_cannon_turret:"麦当劳薯条加农炮"
+  mcdonalds_medium_cannon_turret:"麦当劳薯条加农炮"
+  mcdonalds_medium_cannon_turret_desc:"难道薯条真的很硬？"
+  lnc_mcdonalds_high_velocity_cannon_2:"麦当劳薯条高速加农炮"
+  mcdonalds_high_velocity_cannon_2:"麦当劳薯条高速加农炮"
+  mcdonalds_high_velocity_cannon_2_desc:"这么高速射出去应该更脆了"
+  lnc_mcdonalds_high_velocity_cannon_3:"麦当劳薯条改进高速加农炮"
+  mcdonalds_high_velocity_cannon_3:"麦当劳薯条改进高速加农炮"
+  mcdonalds_high_velocity_cannon_3_desc:"我的薯条很大，你忍一下"
+
+

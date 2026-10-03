@@ -1,0 +1,41 @@
+add_namespace = LNC_mcdonalds_event
+country_event = {
+    id = LNC_mcdonalds_event.1
+    title = LNC_mcdonalds_event.1.t
+    desc = LNC_mcdonalds_event.1.desc
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = LNC_mcdonalds_event.1.a
+        hidden_effect = {
+        set_country_flag = lnc_start_mcdonald_research_flag            
+        }
+
+    }
+}
+country_event = {
+    id = LNC_mcdonalds_event.999
+    title = LNC_mcdonalds_event.999.t
+    desc = LNC_mcdonalds_event.999.desc
+    
+    is_triggered_only = yes
+    
+    option = {
+        set_technology = {
+            lnc_mcdonalds_infantry = 1
+            lnc_mcdonalds_tank_at = 1
+            lnc_mcdonalds_medium_cannon_turret = 1
+            lnc_mcdonalds_high_velocity_cannon_2 = 1
+            lnc_mcdonalds_high_velocity_cannon_3 = 1
+            lnc_mcdonalds_maintenance = 1
+            lnc_mcdonalds_turret_small_cannon = 1
+            lnc_mcdonalds_land_cruiser_tech = 1
+        }
+        complete_special_project = {
+            project = sp:sp_land_land_cruiser
+        }
+
+
+    }
+}

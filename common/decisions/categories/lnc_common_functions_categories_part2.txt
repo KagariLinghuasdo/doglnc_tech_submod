@@ -1,0 +1,11 @@
+lnc_mcdonalds_decisions = {
+	allowed = {
+		always=yes
+	}
+	available = {
+		is_ai = no
+	}
+	visible = {
+		always=yes
+	}
+}
