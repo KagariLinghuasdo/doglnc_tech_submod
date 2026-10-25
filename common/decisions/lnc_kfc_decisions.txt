@@ -1,0 +1,122 @@
+lnc_kfc_decisions = {
+	decison_eat_lnc_kfc = {
+		allowed = {
+		}
+		available = {
+			has_country_flag = got_OO_flag
+			has_country_flag = lnc_start_mcdonald_research_flag
+		}
+		visible = {
+			has_country_flag = got_OO_flag
+		}
+		fire_only_once = yes
+		days_remove = 0
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			country_event = LNC_kfc_event.1
+		}
+	}
+	decison_research_lnc_kfc_fire_support = {
+		allowed = {
+		}
+		available = {
+			has_country_flag = lnc_finish_kfc_research_flag
+			NOT = {
+				has_country_flag = lnc_kfc_researching_flag
+			}
+		}
+		visible = {
+			has_country_flag = got_OO_flag
+			has_country_flag = lnc_finish_kfc_research_flag
+		}
+		fire_only_once = yes
+		days_remove = 60
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = lnc_kfc_researching_flag
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				clr_country_flag = lnc_kfc_researching_flag
+			}
+			set_technology = {
+				lnc_kfc_fire_support = 1
+			}
+		}
+	}
+	decision_research_lnc_kfc_special_support = {
+		allowed = {
+		}
+		available = {
+			has_country_flag = lnc_finish_kfc_research_flag
+			NOT = {
+				has_country_flag = lnc_kfc_researching_flag
+			}
+		}
+		visible = {
+			has_country_flag = got_OO_flag
+			has_country_flag = lnc_finish_kfc_research_flag
+		}
+		fire_only_once = yes
+		days_remove = 60
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = lnc_kfc_researching_flag
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				clr_country_flag = lnc_kfc_researching_flag
+			}
+			set_technology = {
+				lnc_kfc_special_support = 1
+			}
+		}
+	}
+	decision_debug_get_lnc_kfc_tech = {
+		available = {
+			is_debug = yes
+		}
+		visible = {
+			is_debug = yes
+		}
+		days_remove = 0
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			set_technology = {
+				lnc_kfc_fire_support = 1
+			}
+		}
+	}
+	decision_debug_get_lnc_kfc_researching_flag = {
+		available = {
+			is_debug = yes
+		}
+		visible = {
+			is_debug = yes
+		}
+		days_remove = 2
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			set_country_flag = lnc_kfc_researching_flag
+		}
+		remove_effect = {
+			clr_country_flag = lnc_kfc_researching_flag
+		}
+	}
+}

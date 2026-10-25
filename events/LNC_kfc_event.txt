@@ -1,0 +1,13 @@
+add_namespace = LNC_kfc_event
+country_event = {
+	id = LNC_kfc_event.1
+	title = LNC_kfc_event.1.t
+	desc = LNC_kfc_event.1.desc
+	is_triggered_only = yes
+	option = {
+		name = LNC_kfc_event.1.a
+		hidden_effect = {
+			set_country_flag = lnc_start_kfc_research_flag
+		}
+	}
+}

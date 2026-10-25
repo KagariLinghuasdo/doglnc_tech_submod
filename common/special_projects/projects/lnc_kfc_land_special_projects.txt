@@ -1,0 +1,42 @@
+# 特殊项目 ID（全局唯一）
+sp_land_kfc_tech = {
+	specialization = specialization_land
+	project_tags = sp_tag_kfc
+	icon = GFX_sp_land_flamethrower_tank
+	ai_will_do = {
+		base = 0
+	}
+	available = {
+		FROM = {
+			has_country_flag = lnc_start_kfc_research_flag
+		}
+	}
+	breakthrough_cost = {
+		specialization_land = 1
+	}
+	prototype_time = 30
+	complexity = sp_complexity.small
+	project_output = {
+		country_effects = {
+			custom_effect_tooltip = lnc_finish_kfc_tooltip
+			hidden_effect = {
+				set_country_flag = lnc_finish_kfc_research_flag
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		sp_land_generic_reward_scientist_xp_1
+		sp_land_generic_reward_scientist_xp_2
+		sp_land_generic_reward_scientist_xp_3
+		sp_land_generic_reward_army_xp_1
+		sp_land_generic_reward_army_xp_2
+		sp_land_generic_reward_army_xp_3
+		sp_land_generic_reward_major_progress_1
+		sp_land_generic_reward_major_progress_2
+		sp_land_generic_reward_major_progress_3
+		sp_land_generic_reward_test_failure_1
+		sp_land_generic_reward_test_failure_2
+		sp_land_generic_reward_test_failure_3
+		sp_land_generic_reward_resource_scarcity
+	}
+}

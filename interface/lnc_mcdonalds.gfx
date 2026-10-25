@@ -1,56 +1,49 @@
-spriteTypes = {	
+spriteTypes = {
 	spriteType = {
 		name = "GFX_lnc_mcdonalds_burger_1_medium"
 		texturefile = "gfx/lnc_mcdonalds_burger_1.png"
 	}
-
-	spriteType = { 
-		name = "GFX_unit_LNC_mcdonalds_infantry_icon_medium"				
-		textureFile = "gfx/interface/counters/divisions_large/unit_infantry_icon.dds" 
+	spriteType = {
+		name = "GFX_unit_LNC_mcdonalds_infantry_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_infantry_icon.dds"
 		noOfFrames = 2
 	}
 
-	spriteType = { 
+	spriteType = {
 		name = "GFX_unit_LNC_mcdonalds_infantry_icon_medium_white"
- 		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds" 
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_infantry_icon.dds"
 		noOfFrames = 2
 	}
-
-	spriteType = { 
-		name = "GFX_unit_LNC_mcdonalds_medium_tank_at_icon_medium"				
-		textureFile = "gfx/interface/counters/divisions_large/unit_medium_tank_at_icon.dds" 
+	spriteType = {
+		name = "GFX_unit_LNC_mcdonalds_medium_tank_at_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_medium_tank_at_icon.dds"
 		noOfFrames = 2
 	}
-
-	spriteType = { 
+	spriteType = {
 		name = "GFX_unit_LNC_mcdonalds_medium_tank_at_icon_medium_white"
- 		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_medium_tank_at_icon.dds" 
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_medium_tank_at_icon.dds"
 		noOfFrames = 2
 	}
-
-	spriteType = { 
-		name = "GFX_unit_LNC_mcdonalds_heavy_tank_at_icon_medium"				
-		textureFile = "gfx/interface/counters/divisions_large/unit_heavy_armor_at_icon.dds" 
+	spriteType = {
+		name = "GFX_unit_LNC_mcdonalds_heavy_tank_at_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_heavy_armor_at_icon.dds"
 		noOfFrames = 2
 	}
-
-	spriteType = { 
+	spriteType = {
 		name = "GFX_unit_LNC_mcdonalds_heavy_tank_at_icon_medium_white"
- 		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_armor_at_icon.dds" 
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_armor_at_icon.dds"
 		noOfFrames = 2
 	}
-	spriteType = { 
+	spriteType = {
 		name = "GFX_unit_LNC_mcdonalds_land_cruiser_icon_medium"
-		textureFile = "gfx/interface/counters/divisions_large/unit_land_cruiser_icon.dds" 
-		noOfFrames = 2 
-	}
-	spriteType = { 
-		name = "GFX_unit_LNC_mcdonalds_land_cruiser_icon_medium_white"
-		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_marine_icon.dds" 
+		textureFile = "gfx/interface/counters/divisions_large/unit_land_cruiser_icon.dds"
 		noOfFrames = 2
 	}
-	
-
+	spriteType = {
+		name = "GFX_unit_LNC_mcdonalds_land_cruiser_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_marine_icon.dds"
+		noOfFrames = 2
+	}
 	spriteType = {
 		name = "GFX_EMI_mcdonalds_turret_small_cannon"
 		textureFile = "gfx/mcdonalds_turret_small_cannon.png"
@@ -76,5 +69,4 @@ spriteTypes = {
 		textureFile = "gfx/mcdonalds_high_velocity_cannon_3.png"
 		legacy_lazy_load = no
 	}
-
 }

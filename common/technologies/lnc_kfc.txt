@@ -1,0 +1,44 @@
+technologies = {
+	lnc_kfc_fire_support = {
+		allow_branch = {
+			has_country_flag = got_OO_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = {
+			industry
+		}
+		enable_subunits = {
+			LNC_kfc_fire_support
+			LNC_kfc_field_guns
+			LNC_kfc_anti_air_battery
+			LNC_kfc_anti_tank_battery
+			LNC_kfc_light_sp_anti_air_support
+			LNC_kfc_light_tank_destroyer_support
+			LNC_kfc_medium_tank_destroyer_support
+			LNC_kfc_heavy_tank_destroyer_support
+			LNC_kfc_modern_tank_destroyer_support
+		}
+	}
+	lnc_kfc_special_support = {
+		allow_branch = {
+			has_country_flag = got_OO_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = {
+			industry
+		}
+		enable_subunits = {
+			LNC_kfc_fire_support
+			LNC_kfc_field_guns
+			LNC_kfc_anti_air_battery
+			LNC_kfc_anti_tank_battery
+			LNC_kfc_light_sp_anti_air_support
+			LNC_kfc_light_tank_destroyer_support
+			LNC_kfc_medium_tank_destroyer_support
+			LNC_kfc_heavy_tank_destroyer_support
+			LNC_kfc_modern_tank_destroyer_support
+		}
+	}
+}

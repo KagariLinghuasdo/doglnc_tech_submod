@@ -1,0 +1,20 @@
+﻿l_simp_chinese:
+ sp_tag_kfc: "肯德基项目"
+ sp_land_kfc_tech:"肯德基计划"
+ sp_land_kfc_tech_desc: "一项超越时空的食物技术，研究完毕可以解锁给士兵们提供巨额加成的决议，可惜似乎与另外一项同样超越时空的食物技术互相对立。"
+ lnc_finish_kfc_tooltip: "肯德基系列科技决议解锁。"
+ lnc_finish_kfc_research_flag: "肯德基前置特殊科技研究完毕"
+
+ lnc_kfc_fire_support: "肯德基团属支援连科技"
+
+ LNC_kfc_fire_support: "肯德基重武器连"
+ LNC_kfc_field_guns: "肯德基步兵炮"
+ LNC_kfc_anti_air_battery: "肯德基防空炮兵连"
+ LNC_kfc_anti_tank_battery: "肯德基反坦克炮兵连"
+
+ LNC_kfc_light_sp_anti_air_support: "肯德基轻型自行防空炮支援连"
+ LNC_kfc_light_tank_destroyer_support: "肯德基轻型自行反坦克炮支援"
+ LNC_kfc_medium_tank_destroyer_support: "肯德基中型自行反坦克炮支援"
+ LNC_kfc_heavy_tank_destroyer_support: "肯德基重型自行反坦克炮支援"
+ LNC_kfc_modern_tank_destroyer_support: "肯德基现代自行反坦克炮支援"
+

@@ -1,0 +1,9 @@
+﻿l_simp_chinese:
+ lnc_kfc_decisions:"肯德基！？"
+ decison_eat_lnc_kfc:"吃K！"
+ decison_eat_lnc_kfc_desc:"OO最喜欢吃的美食，在牢头决心研究麦之后，OO也按捺不住躁动的心，决心研究K。"
+
+ lnc_kfc_researching_flag:"肯德基新品研发中"
+
+ decison_research_lnc_kfc_fire_support:"研发肯德基团属支援连"
+ decison_research_lnc_kfc_fire_support_desc:"吃饱了才有战斗力"

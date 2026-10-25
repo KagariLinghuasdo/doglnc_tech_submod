@@ -12,4 +12,7 @@ script_enum_equipment_bonus_type = {
 	# Equipment categories
     lnc_mcdonalds_burger
     lnc_mcdonalds_burger_1
+
+	lnc_kfc_burger
+	lnc_kfc_burger_1
 }
