@@ -8,6 +8,9 @@
   lnc_mcdonalds_burger_1:"麦辣鸡腿堡"
   lnc_mcdonalds_burger_1_desc:"香辣可口的麦辣鸡腿堡，让士兵们大快朵颐"
 
+  lnc_mcdonalds_mechanized: "麦乐送机械化"
+  LNC_mcdonalds_mechanized: "麦当劳机械化"
+
   lnc_mcdonalds_tank_at:"麦当劳自行反坦克炮"
   LNC_mcdonalds_medium_tank_at:"麦当劳中型自行反坦克炮"
   LNC_mcdonalds_heavy_tank_at:"麦当劳重型自行反坦克炮"

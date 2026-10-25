@@ -55,6 +55,45 @@ lnc_mcdonalds_decisions = {
 			}
 		}
 	}
+	decison_research_lnc_mcdonalds_mechanized = {
+		allowed = {
+		}
+		available = {
+			has_country_flag = lnc_finish_mcdonald_research_flag
+			from = {
+				has_tech = lnc_mcdonalds_infantry
+			}
+			NOT = {
+				has_country_flag = lnc_mcdonald_researching_flag
+			}
+		}
+		visible = {
+			has_country_flag = got_Liewartine_flag
+			has_country_flag = lnc_finish_mcdonald_research_flag
+		}
+		fire_only_once = yes
+		days_remove = 30
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			add_timed_idea = {
+				idea = ideas_LNC_temporary_research_penalty
+				days = 30
+			}
+			hidden_effect = {
+				set_country_flag = lnc_mcdonald_researching_flag
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				clr_country_flag = lnc_mcdonald_researching_flag
+			}
+			set_technology = {
+				lnc_mcdonalds_mechanized = 1
+			}
+		}
+	}
 	decison_research_lnc_mcdonalds_tank_at = {
 		allowed = {
 		}

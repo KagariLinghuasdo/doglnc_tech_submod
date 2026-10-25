@@ -52,38 +52,38 @@ lnc_kfc_decisions = {
 			}
 		}
 	}
-	decision_research_lnc_kfc_special_support = {
-		allowed = {
-		}
-		available = {
-			has_country_flag = lnc_finish_kfc_research_flag
-			NOT = {
-				has_country_flag = lnc_kfc_researching_flag
-			}
-		}
-		visible = {
-			has_country_flag = got_OO_flag
-			has_country_flag = lnc_finish_kfc_research_flag
-		}
-		fire_only_once = yes
-		days_remove = 60
-		ai_will_do = {
-			factor = 0
-		}
-		complete_effect = {
-			hidden_effect = {
-				set_country_flag = lnc_kfc_researching_flag
-			}
-		}
-		remove_effect = {
-			hidden_effect = {
-				clr_country_flag = lnc_kfc_researching_flag
-			}
-			set_technology = {
-				lnc_kfc_special_support = 1
-			}
-		}
-	}
+	# decision_research_lnc_kfc_special_support = {
+	# 	allowed = {
+	# 	}
+	# 	available = {
+	# 		has_country_flag = lnc_finish_kfc_research_flag
+	# 		NOT = {
+	# 			has_country_flag = lnc_kfc_researching_flag
+	# 		}
+	# 	}
+	# 	visible = {
+	# 		has_country_flag = got_OO_flag
+	# 		has_country_flag = lnc_finish_kfc_research_flag
+	# 	}
+	# 	fire_only_once = yes
+	# 	days_remove = 60
+	# 	ai_will_do = {
+	# 		factor = 0
+	# 	}
+	# 	complete_effect = {
+	# 		hidden_effect = {
+	# 			set_country_flag = lnc_kfc_researching_flag
+	# 		}
+	# 	}
+	# 	remove_effect = {
+	# 		hidden_effect = {
+	# 			clr_country_flag = lnc_kfc_researching_flag
+	# 		}
+	# 		set_technology = {
+	# 			lnc_kfc_special_support = 1
+	# 		}
+	# 	}
+	# }
 	decision_debug_get_lnc_kfc_tech = {
 		available = {
 			is_debug = yes

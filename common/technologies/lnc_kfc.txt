@@ -30,15 +30,6 @@ technologies = {
 			industry
 		}
 		enable_subunits = {
-			LNC_kfc_fire_support
-			LNC_kfc_field_guns
-			LNC_kfc_anti_air_battery
-			LNC_kfc_anti_tank_battery
-			LNC_kfc_light_sp_anti_air_support
-			LNC_kfc_light_tank_destroyer_support
-			LNC_kfc_medium_tank_destroyer_support
-			LNC_kfc_heavy_tank_destroyer_support
-			LNC_kfc_modern_tank_destroyer_support
 		}
 	}
 }

@@ -16,6 +16,19 @@ technologies = {
 			LNC_mcdonalds_infantry
 		}
 	}
+	lnc_mcdonalds_mechanized = {
+		allow_branch = {
+			has_country_flag = got_Liewartine_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = {
+			industry
+		}
+		enable_subunits = {
+			LNC_mcdonalds_mechanized
+		}
+	}
 	lnc_mcdonalds_turret_small_cannon = {
 		allow_branch = {
 			has_country_flag = got_Liewartine_flag
