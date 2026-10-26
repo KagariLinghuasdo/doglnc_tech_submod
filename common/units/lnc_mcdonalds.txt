@@ -38,6 +38,7 @@ sub_units = {
 			infantry_equipment = 50			#步兵武器
 			lnc_mcdonalds_burger = 50
 		}
+		maximum_speed = -0.5
 		defense = 0.1		#防御
 		breakthrough = 0.1		#突破
 		soft_attack = 0.1		#软攻

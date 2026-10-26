@@ -1,0 +1,23 @@
+﻿l_simp_chinese:
+ mcdonalds_and_kfc_organization:"uestc钢四群K与M生产有限公司"
+ mcdonalds_and_kfc_mio:"研究军需品与量产K和M生产商"
+ mcdonalds_and_kfc_mio_desc:"据野史记载，创始人是OO，牢头与归零。OO在xxxx年xx月xx日向某个钢四群的财政部提交了一份关于在群内成立量产M与K生产公司的建议书，并在第二日经由卡比授权、lnc批准建立上述生产公司。原K与M量产厂于之后几日经由OO不断建成投产，初期主要为K与M提供制作汉堡与炸鸡的原材料。几年之后，工厂开始为钢四中正式生产K的炸鸡与M的麦辣鸡腿堡。xxxx年，经由群内第三套领导班子决定，与研究军需品研究院合并，成立研究军需品与量产K和M生产商。合并之后，该工厂一跃成为群内MIO的杰出代表。在接下来的钢四二战中，由该MIO所生产的大量M汉堡与K炸鸡帮助群内成员打赢多次天堂之战。"
+ LNC_mcdonalds_and_kfc_organization_desc:"$mcdonalds_and_kfc_mio$\n§L$mcdonalds_and_kfc_mio_desc$§!\n"
+
+ chtz_upgrade_1:"减少出餐包装成本"
+ chtz_upgrade_2:"专注研发军需品"
+ chtz_upgrade_3:"简化服务质量"
+ chtz_upgrade_4:"简化出餐速率"
+ chtz_upgrade_5:"军需品研发部门扩张"
+ chtz_upgrade_6:"厨房廉价点火设施"
+ chtz_upgrade_1_1:"成立额外出餐设施"
+ chtz_upgrade_1_2:"标准化出餐部件"
+ chtz_upgrade_1_3:"易改装出餐线设计"
+ chtz_upgrade_2_1:"出餐流水线工厂"
+ chtz_upgrade_2_2:"标准化出餐包装"
+ chtz_upgrade_3_1:"弱化出餐外包装硬度"
+ chtz_upgrade_3_2:"计划淘汰出餐外包装"
+ chtz_upgrade_4_1:"改进出餐生产能力"
+ chtz_upgrade_4_2:"改进补给"
+ supply_lines_idea:"改进补给生产"
+ 

@@ -1,4 +1,18 @@
 technologies = {
+	lnc_kfc_equipment_tech = {
+		allow_branch = {
+			has_country_flag = got_OO_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = {
+			industry
+		}
+		enable_equipments = {
+			lnc_kfc_fried_checken
+			lnc_kfc_fried_checken_1
+		}
+	}
 	lnc_kfc_fire_support = {
 		allow_branch = {
 			has_country_flag = got_OO_flag

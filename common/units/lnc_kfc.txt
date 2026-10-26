@@ -34,10 +34,12 @@ sub_units = {
 		need = {
 			infantry_equipment = 50
 			support_equipment = 10
+			lnc_kfc_fried_checken = 10
 		}
 		essential = {
 			support_equipment
 			infantry_equipment
+			lnc_kfc_fried_checken
 		}
 		manpower = 300
 		training_time = 60
@@ -81,6 +83,7 @@ sub_units = {
 		combat_width = 0
 		need = {
 			artillery_equipment = 6
+			lnc_kfc_fried_checken = 6
 		}
 		manpower = 180
 		training_time = 120
@@ -125,6 +128,7 @@ sub_units = {
 		training_time = 120
 		need = {
 			anti_air_equipment = 16
+			lnc_kfc_fried_checken = 6
 		}
 		can_be_parachuted = yes
 		#Size Definitions
@@ -171,6 +175,7 @@ sub_units = {
 		combat_width = 0
 		need = {
 			anti_tank_equipment = 16
+			lnc_kfc_fried_checken = 6
 		}
 		manpower = 180
 		max_organisation = 20
@@ -216,6 +221,7 @@ sub_units = {
 		divisional = no
 		need = {
 			light_tank_aa_chassis = 15
+			lnc_kfc_fried_checken = 10
 		}
 		manpower = 180
 		max_organisation = 20
@@ -264,6 +270,7 @@ sub_units = {
 		divisional = no
 		need = {
 			light_tank_destroyer_chassis = 15
+			lnc_kfc_fried_checken = 10
 		}
 		manpower = 180
 		max_organisation = 20
@@ -310,6 +317,7 @@ sub_units = {
 		}
 		need = {
 			medium_tank_destroyer_chassis = 15
+			lnc_kfc_fried_checken = 10
 		}
 		manpower = 180
 		max_organisation = 20
@@ -357,6 +365,7 @@ sub_units = {
 		}
 		need = {
 			heavy_tank_destroyer_chassis = 15
+			lnc_kfc_fried_checken = 10
 		}
 		manpower = 180
 		max_organisation = 20
@@ -403,6 +412,7 @@ sub_units = {
 		}
 		need = {
 			modern_tank_destroyer_chassis = 15
+			lnc_kfc_fried_checken = 10
 		}
 		manpower = 180
 		max_organisation = 20
@@ -446,12 +456,13 @@ sub_units = {
 		}
 		combat_width = 2
 		#Size Definitions
+		maximum_speed = -0.5
 		max_strength = 60
 		max_organisation = 100
-		soft_attack = 2.5
-		hard_attack = 8
-		defense = 1		#防御
-		breakthrough = 2		#突破
+		soft_attack = 0.5
+		hard_attack = 0.5
+		defense = 0.5		#防御
+		breakthrough = 0.5		#突破
 		default_morale = 0.4
 		manpower = 1000
 		#Misc Abilities
@@ -461,6 +472,7 @@ sub_units = {
 		supply_consumption = 0.05
 		need = {
 			infantry_equipment = 150
+			lnc_kfc_fried_checken = 50
 		}
 		marsh = {
 			attack = 0.6
@@ -498,12 +510,13 @@ sub_units = {
 			category_marines_and_amphibious
 		}
 		combat_width = 2
+		maximum_speed = -0.5
 		max_strength = 60
 		max_organisation = 100
-		soft_attack = 2.5
-		hard_attack = 8
-		defense = 1		#防御
-		breakthrough = 2		#突破
+		soft_attack = 0.5
+		hard_attack = 0.5
+		defense = 0.5		#防御
+		breakthrough = 0.5		#突破
 		default_morale = 0.4
 		manpower = 1000
 		#Misc Abilities
@@ -513,6 +526,7 @@ sub_units = {
 		supply_consumption = 0.05
 		need = {
 			infantry_equipment = 150
+			lnc_kfc_fried_checken = 50
 		}
 		marsh = {
 			attack = 0.6
@@ -549,12 +563,13 @@ sub_units = {
 		}
 		combat_width = 2
 		#Size Definitions
+		maximum_speed = -0.5
 		max_strength = 60
 		max_organisation = 100
-		soft_attack = 2.5
-		hard_attack = 8
-		defense = 1		#防御
-		breakthrough = 2		#突破
+		soft_attack = 0.5
+		hard_attack = 0.5
+		defense = 0.5		#防御
+		breakthrough = 0.5		#突破
 		default_morale = 0.4
 		manpower = 1000
 		#Misc Abilities
@@ -564,6 +579,7 @@ sub_units = {
 		supply_consumption = 0.05
 		need = {
 			infantry_equipment = 140
+			lnc_kfc_fried_checken = 50
 		}
 		hills = {
 			attack = 0.4
@@ -600,12 +616,13 @@ sub_units = {
 		}
 		combat_width = 2
 		#Size Definitions
+		maximum_speed = -0.5
 		max_strength = 60
 		max_organisation = 100
-		soft_attack = 2.5
-		hard_attack = 8
-		defense = 1		#防御
-		breakthrough = 2		#突破
+		soft_attack = 0.5
+		hard_attack = 0.5
+		defense = 0.5		#防御
+		breakthrough = 0.5		#突破
 		default_morale = 0.4
 		manpower = 1000
 		#Misc Abilities
@@ -616,6 +633,7 @@ sub_units = {
 		can_be_parachuted = yes
 		need = {
 			infantry_equipment = 130
+			lnc_kfc_fried_checken = 50
 		}
 	}
 	# 游骑兵
@@ -643,12 +661,13 @@ sub_units = {
 		}
 		combat_width = 2
 		#Size Definitions
+		maximum_speed = -0.5
 		max_strength = 60
 		max_organisation = 100
-		soft_attack = 2.5
-		hard_attack = 8
-		defense = 1		#防御
-		breakthrough = 2		#突破
+		soft_attack = 0.5
+		hard_attack = 0.5
+		defense = 0.5		#防御
+		breakthrough = 0.5		#突破
 		default_morale = 0.4
 		manpower = 1000
 		#Misc Abilities
@@ -659,6 +678,7 @@ sub_units = {
 		#Offensive Abilities
 		need = {
 			infantry_equipment = 140
+			lnc_kfc_fried_checken = 50
 		}
 		forest = {
 			attack = 0.2

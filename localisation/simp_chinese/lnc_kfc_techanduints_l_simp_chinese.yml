@@ -5,6 +5,12 @@
  lnc_finish_kfc_tooltip: "肯德基系列科技决议解锁。"
  lnc_finish_kfc_research_flag: "肯德基前置特殊科技研究完毕"
 
+ lnc_kfc_fried_checken: "肯德基炸鸡"
+ lnc_kfc_fried_checken_desc: "不赖"
+ lnc_kfc_fried_checken_1: "肯德基全家桶"
+ lnc_kfc_fried_checken_1_desc: "肯德基全家桶，买不了吃亏买不了上当"
+ 
+ lnc_kfc_equipment_tech: "肯德基炸鸡制作秘方"
  lnc_kfc_fire_support: "肯德基团属支援连科技"
  lnc_kfc_marine: "KFC特种马润作战科技"
  lnc_kfc_mountaineers: "KFC特种山地作战科技"
@@ -26,5 +32,5 @@
  LNC_kfc_mountaineers: "肯德基山地步兵"
  LNC_kfc_paratrooper: "肯德基空降伞兵"
  LNC_kfc_ranger_battalion: "肯德基游骑兵"
- LNC_kfc_marine_commando: "肯德基游骑兵"
+ LNC_kfc_marine_commando: "肯德基海军突击队"
 

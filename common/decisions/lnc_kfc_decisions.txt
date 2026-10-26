@@ -18,11 +18,43 @@ lnc_kfc_decisions = {
 			country_event = LNC_kfc_event.1
 		}
 	}
+	decision_research_lnc_kfc_equipment_tech = {
+		available = {
+			has_country_flag = lnc_finish_kfc_research_flag
+			NOT = {
+				has_country_flag = lnc_kfc_researching_flag
+			}
+		}
+		visible = {
+			has_country_flag = got_OO_flag
+			has_country_flag = lnc_finish_kfc_research_flag
+		}
+		fire_only_once = yes
+		days_remove = 10
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = lnc_kfc_researching_flag
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				clr_country_flag = lnc_kfc_researching_flag
+				set_country_flag = lnc_kfc_has_complete_kfc_equipment_research
+			}
+			set_technology = {
+				lnc_kfc_equipment_tech = 1
+			}
+		}
+	}
 	decison_research_lnc_kfc_fire_support = {
 		allowed = {
 		}
 		available = {
 			has_country_flag = lnc_finish_kfc_research_flag
+			has_country_flag = lnc_kfc_has_complete_kfc_equipment_research
 			NOT = {
 				has_country_flag = lnc_kfc_researching_flag
 			}
@@ -56,6 +88,7 @@ lnc_kfc_decisions = {
 		available = {
 			from = {
 				has_country_flag = lnc_finish_kfc_research_flag
+				has_country_flag = lnc_kfc_has_complete_kfc_equipment_research
 				NOT = {
 					has_country_flag = lnc_kfc_researching_flag
 				}
@@ -92,6 +125,7 @@ lnc_kfc_decisions = {
 		available = {
 			from = {
 				has_country_flag = lnc_finish_kfc_research_flag
+				has_country_flag = lnc_kfc_has_complete_kfc_equipment_research
 				NOT = {
 					has_country_flag = lnc_kfc_researching_flag
 				}
@@ -127,6 +161,7 @@ lnc_kfc_decisions = {
 		available = {
 			from = {
 				has_country_flag = lnc_finish_kfc_research_flag
+				has_country_flag = lnc_kfc_has_complete_kfc_equipment_research
 				NOT = {
 					has_country_flag = lnc_kfc_researching_flag
 				}
@@ -162,6 +197,7 @@ lnc_kfc_decisions = {
 		available = {
 			from = {
 				has_country_flag = lnc_finish_kfc_research_flag
+				has_country_flag = lnc_kfc_has_complete_kfc_equipment_research
 				NOT = {
 					has_country_flag = lnc_kfc_researching_flag
 				}
@@ -197,6 +233,7 @@ lnc_kfc_decisions = {
 		available = {
 			from = {
 				has_country_flag = lnc_finish_kfc_research_flag
+				has_country_flag = lnc_kfc_has_complete_kfc_equipment_research
 				has_country_flag = lnc_kfc_has_complete_marine_research
 				NOT = {
 					has_country_flag = lnc_kfc_researching_flag
@@ -226,6 +263,42 @@ lnc_kfc_decisions = {
 			}
 		}
 	}
+	decision_research_lnc_mcdonalds_and_kfc_organization = {
+		available = {
+			from = {
+				has_country_flag = lnc_finish_kfc_research_flag
+				has_country_flag = lnc_kfc_has_complete_kfc_equipment_research
+				NOT = {
+					has_country_flag = lnc_kfc_researching_flag
+				}
+			}
+		}
+		visible = {
+			has_country_flag = got_OO_flag
+			has_country_flag = lnc_finish_kfc_research_flag
+		}
+		fire_only_once = yes
+		days_remove = 30
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = lnc_kfc_researching_flag
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				clr_country_flag = lnc_kfc_researching_flag
+				set_country_flag = has_researched_mcdonalds_and_kfc_organization
+			}
+			unlock_military_industrial_organization_tooltip = mio:mcdonalds_and_kfc_organization
+			mio:mcdonalds_and_kfc_organization = {
+				add_mio_size = 2
+				add_mio_funds_gain_factor = 0.25
+			}
+		}
+	}
 	decision_debug_get_lnc_kfc_tech = {
 		available = {
 			is_debug = yes
@@ -239,8 +312,17 @@ lnc_kfc_decisions = {
 		}
 		complete_effect = {
 			set_technology = {
+				lnc_kfc_equipment_tech = 1
 				lnc_kfc_fire_support = 1
+				lnc_kfc_marine = 1
+				lnc_kfc_mountaineers = 1
+				lnc_kfc_paratrooper = 1
+				lnc_kfc_ranger_battalion = 1
+				lnc_kfc_marine_commando = 1
 			}
+			set_country_flag = lnc_kfc_has_complete_kfc_equipment_research
+			set_country_flag = lnc_finish_kfc_research_flag
+			set_country_flag = has_researched_mcdonalds_and_kfc_organization
 		}
 	}
 	decision_debug_get_lnc_kfc_researching_flag = {

@@ -5,8 +5,11 @@
 
  lnc_start_kfc_research_flag:"已开始准备研发肯德基新品"
  lnc_kfc_researching_flag:"肯德基新品研发中"
+ lnc_kfc_has_complete_kfc_equipment_research:"已研发完毕肯德基炸鸡"
  lnc_kfc_has_complete_marine_research:"已经完成肯德基海军陆战队研发"
 
+ decision_research_lnc_kfc_equipment_tech:"研发肯德基炸鸡"
+ decision_research_lnc_kfc_equipment_tech_desc:"疯狂星期四，V我50"
  decison_research_lnc_kfc_fire_support:"研发肯德基团属支援连"
  decison_research_lnc_kfc_fire_support_desc:"吃饱了才有战斗力"
  decision_research_lnc_kfc_marine:"研发肯德基海军陆战队"
@@ -19,4 +22,6 @@
  decision_research_lnc_kfc_ranger_battalion_desc:"K，无孔不入"
  decision_research_lnc_kfc_marine_commando:"研发肯德基海军突击队"
  decision_research_lnc_kfc_marine_commando_desc:"变异的虾堡吗（目移）"
+ decision_research_lnc_mcdonalds_and_kfc_organization:"成立KFC与麦当劳生产组织"
+ decision_research_lnc_mcdonalds_and_kfc_organization_desc:"K与M的世纪大和解？"
  

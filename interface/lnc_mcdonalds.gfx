@@ -4,6 +4,10 @@ spriteTypes = {
 		texturefile = "gfx/lnc_mcdonalds_burger_1.png"
 	}
 	spriteType = {
+		name = "GFX_military_industrial_organization_lnc_mcdonalds_burger_1"
+		texturefile = "gfx/mio/lnc_mcdonalds_burger_1.png"
+	}
+	spriteType = {
 		name = "GFX_unit_LNC_mcdonalds_infantry_icon_medium"
 		textureFile = "gfx/interface/counters/divisions_large/unit_infantry_icon.dds"
 		noOfFrames = 2

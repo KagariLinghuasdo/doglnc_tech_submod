@@ -1,0 +1,410 @@
+# 麦当劳与肯德基MIO
+mcdonalds_and_kfc_organization = {
+	icon = GFX_idea_generic_tank_manufacturer_1
+	initial_trait = {
+		name = LNC_mcdonalds_and_kfc_organization_desc
+		organization_modifier = {
+			military_industrial_organization_size_up_requirement = 0.1
+			military_industrial_organization_research_bonus = 0.1
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.05
+		}
+	}
+	allowed = {
+		always = yes
+	}
+	visible = {
+		from = {
+			has_country_flag = has_researched_mcdonalds_and_kfc_organization
+		}
+	}
+	equipment_type = {
+		lnc_mcdonalds_burger_1
+		lnc_kfc_fried_checken_1
+	}
+	research_categories = {
+		armor
+		artillery_equipment
+		anti_tank_equipment
+		anti_air_equipment
+		rocket_artillery_equipment
+		infantry_weapons
+		industry
+		electronics
+	}
+	trait = {
+		token = chtz_upgrade_1
+		name = chtz_upgrade_1
+		icon = GFX_generic_mio_trait_icon_breakthrough
+		position = {
+			x = 0
+			y = 0
+		}
+		mutually_exclusive = {
+			chtz_upgrade_2
+			chtz_upgrade_3
+		}
+		equipment_bonus = {
+			build_cost_ic = -0.03
+			breakthrough = -0.07
+		}
+		on_complete = {
+			add_mio_research_bonus = 0.19
+			from = {
+				army_experience = 50
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_2
+		name = chtz_upgrade_2
+		icon = GFX_generic_mio_department_icon_facilities
+		position = {
+			x = 1
+			y = 0
+		}
+		mutually_exclusive = {
+			chtz_upgrade_1
+			chtz_upgrade_3
+		}
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.25
+		}
+		on_complete = {
+			from = {
+				army_experience = 50
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_3
+		name = chtz_upgrade_3
+		icon = GFX_generic_mio_trait_icon_soft_attack
+		position = {
+			x = 2
+			y = 0
+		}
+		mutually_exclusive = {
+			chtz_upgrade_2
+			chtz_upgrade_1
+		}
+		equipment_bonus = {
+			soft_attack = -0.07
+			build_cost_ic = -0.05
+		}
+		on_complete = {
+			add_mio_research_bonus = 0.13
+			from = {
+				army_experience = 50
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_4
+		name = chtz_upgrade_4
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+		position = {
+			x = 6
+			y = 0
+		}
+		mutually_exclusive = {
+			chtz_upgrade_5
+			chtz_upgrade_6
+		}
+		equipment_bonus = {
+			maximum_speed = -0.07
+			build_cost_ic = -0.02
+		}
+		on_complete = {
+			add_mio_research_bonus = 0.16
+			from = {
+				army_experience = 50
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_5
+		name = chtz_upgrade_5
+		icon = GFX_generic_mio_department_icon_facilities
+		position = {
+			x = 7
+			y = 0
+		}
+		mutually_exclusive = {
+			chtz_upgrade_4
+			chtz_upgrade_6
+		}
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.25
+		}
+		on_complete = {
+			from = {
+				army_experience = 50
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_6
+		name = chtz_upgrade_6
+		icon = GFX_generic_mio_trait_icon_fuel_consumption
+		position = {
+			x = 8
+			y = 0
+		}
+		mutually_exclusive = {
+			chtz_upgrade_4
+			chtz_upgrade_5
+		}
+		equipment_bonus = {
+			fuel_consumption = 0.35
+			build_cost_ic = -0.02
+		}
+		on_complete = {
+			add_mio_research_bonus = 0.11
+			from = {
+				army_experience = 50
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_1_1
+		name = chtz_upgrade_1_1
+		icon = GFX_generic_mio_department_icon_facilities
+		available = {
+		}
+		position = {
+			x = 3
+			y = 1
+		}
+		mutually_exclusive = {
+			chtz_upgrade_1_2
+			chtz_upgrade_1_3
+		}
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.1
+		}
+		on_complete = {
+			FROM = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 4
+				}
+			}
+			add_mio_research_bonus = -0.04
+			from = {
+				army_experience = 50
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_1_2
+		name = chtz_upgrade_1_2
+		icon = GFX_generic_mio_trait_icon_build_cost_ic
+		position = {
+			x = 4
+			y = 1
+		}
+		mutually_exclusive = {
+			chtz_upgrade_1_1
+			chtz_upgrade_1_3
+		}
+		production_bonus = {
+			production_cost_factor = -0.05
+		}
+		organization_modifier = {
+			military_industrial_organization_design_team_assign_cost = 1
+		}
+		on_complete = {
+			from = {
+				army_experience = 50
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_1_3
+		name = chtz_upgrade_1_3
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		position = {
+			x = 5
+			y = 1
+		}
+		mutually_exclusive = {
+			chtz_upgrade_1_2
+			chtz_upgrade_1_1
+		}
+		organization_modifier = {
+			military_industrial_organization_design_team_change_cost = -1
+		}
+		production_bonus = {
+			production_capacity_factor = 0.02
+		}
+		on_complete = {
+			add_mio_research_bonus = 0.06
+			from = {
+				army_experience = 50
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_2_1
+		name = chtz_upgrade_2_1
+		icon = GFX_generic_mio_trait_icon_hard_attack
+		position = {
+			x = 1
+			y = 2
+		}
+		any_parent = {
+			chtz_upgrade_1
+			chtz_upgrade_2
+			chtz_upgrade_3
+		}
+		equipment_bonus = {
+			hard_attack = -0.07
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.06
+			production_efficiency_gain_factor = 0.1
+			production_capacity_factor = 0.03
+		}
+		on_complete = {
+			from = {
+				army_experience = 50
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_2_2
+		name = chtz_upgrade_2_2
+		icon = GFX_generic_mio_trait_icon_ap_attack
+		position = {
+			x = 7
+			y = 2
+		}
+		any_parent = {
+			chtz_upgrade_4
+			chtz_upgrade_5
+			chtz_upgrade_6
+		}
+		equipment_bonus = {
+			ap_attack = -0.07
+		}
+		production_bonus = {
+			production_efficiency_cap_factor = 0.06
+			production_efficiency_gain_factor = 0.1
+			production_capacity_factor = 0.03
+		}
+		on_complete = {
+			from = {
+				army_experience = 50
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_3_1
+		name = chtz_upgrade_3_1
+		icon = GFX_generic_mio_trait_icon_hardness
+		position = {
+			x = 3
+			y = 3
+		}
+		all_parents = {
+			chtz_upgrade_2_1
+		}
+		any_parent = {
+			chtz_upgrade_1_1
+			chtz_upgrade_1_2
+			chtz_upgrade_1_3
+		}
+		equipment_bonus = {
+			hardness = -0.07
+			build_cost_ic = -0.02
+		}
+		on_complete = {
+			from = {
+				army_experience = 50
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_3_2
+		name = chtz_upgrade_3_2
+		icon = GFX_generic_mio_trait_icon_armor_value
+		position = {
+			x = 5
+			y = 3
+		}
+		all_parents = {
+			chtz_upgrade_2_2
+		}
+		any_parent = {
+			chtz_upgrade_1_1
+			chtz_upgrade_1_2
+			chtz_upgrade_1_3
+		}
+		equipment_bonus = {
+			armor_value = -0.07
+			build_cost_ic = -0.02
+		}
+		on_complete = {
+			from = {
+				army_experience = 50
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_4_1
+		name = chtz_upgrade_4_1
+		icon = GFX_generic_mio_trait_icon_efficiency_gain
+		visible = {
+		}
+		available = {
+		}
+		special_trait_background = yes
+		position = {
+			x = 4
+			y = 4
+		}
+		any_parent = {
+			chtz_upgrade_3_1
+			chtz_upgrade_3_2
+		}
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.2
+			military_industrial_organization_design_team_assign_cost = -0.1
+		}
+		production_bonus = {
+			production_cost_factor = -0.05
+			production_capacity_factor = 0.06
+			production_resource_need_factor = -0.1
+		}
+		on_complete = {
+			from = {
+				add_research_slot = 1
+			}
+		}
+	}
+	trait = {
+		token = chtz_upgrade_4_2
+		name = chtz_upgrade_4_2
+		icon = GFX_generic_mio_trait_icon_supply_consumption
+		visible = {
+		}
+		available = {
+		}
+		special_trait_background = yes
+		position = {
+			x = 4
+			y = 2
+		}
+		organization_modifier = {
+			military_industrial_organization_design_team_assign_cost = -0.1
+		}
+		special_trait_background = yes
+		on_complete = {
+			from = {
+				add_ideas = supply_lines_idea
+			}
+		}
+	}
+}

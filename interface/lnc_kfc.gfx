@@ -1,4 +1,13 @@
 spriteTypes = {
+	# KFC炸鸡
+	spriteType = {
+		name = "GFX_lnc_kfc_fried_checken_1_medium"
+		texturefile = "gfx/lnc_kfc_fried_checken_1.png"
+	}
+	spriteType = {
+		name = "GFX_military_industrial_organization_lnc_kfc_fried_checken_1"
+		texturefile = "gfx/mio/lnc_kfc_fried_checken_1.png"
+	}
 	# 重武器
 	spriteType = {
 		name = "GFX_unit_LNC_kfc_fire_support_icon_medium"

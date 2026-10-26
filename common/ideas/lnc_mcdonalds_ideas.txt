@@ -9,5 +9,14 @@ ideas = {
 				research_speed_factor = -0.2
 			}
 		}
+		supply_lines_idea = {
+			removal_cost = -1
+			picture = generic_supply_lines
+			modifier = {
+				supply_node_range = 0.1
+				production_speed_supply_node_factor = 2
+				production_speed_rail_way_factor = 0.25
+			}
+		}
 	}
 }
