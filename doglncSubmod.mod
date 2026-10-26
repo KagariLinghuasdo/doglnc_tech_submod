@@ -4,5 +4,6 @@ tags={
 	"Fixes"
 }
 name="LNC和动物朋友科技扩展"
+picture="thumbnail.png"
 supported_version="1.19.3.0"
 remote_file_id="3812710917"
