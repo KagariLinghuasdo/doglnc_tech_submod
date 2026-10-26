@@ -1,5 +1,7 @@
 ﻿l_simp_chinese:
   sp_land_mcdonalds_tech:"麦当劳计划"
+  sp_land_mcdonalds_tech_desc:"一项超越时空的食物技术，研究完毕可以解锁给士兵们提供巨额加成的决议，可惜似乎与另外一项同样超越时空的食物技术互相看不顺眼。"
+  lnc_finish_mcdonald_tooltip:"麦当劳系列科技决议解锁。"
 
   lnc_mcdonalds_infantry:"麦当劳步兵"
   LNC_mcdonalds_infantry:"麦当劳步兵"

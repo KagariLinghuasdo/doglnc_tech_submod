@@ -48,6 +48,32 @@ spriteTypes = {
 		textureFile = gfx/interface/counters/divisions_large/support_unit_modern_tank_destroyer_icon.dds
 		noOfFrames = 2
 	}
+	# 五个特种
+	spriteType = {
+		name = "GFX_unit_LNC_kfc_marine_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_marine_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_LNC_kfc_mountaineers_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_mountain_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_LNC_kfc_paratrooper_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_paratroop_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_LNC_kfc_ranger_battalion_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_ranger_battalion_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_LNC_kfc_marine_commando_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_marine_commando_icon.dds"
+		noOfFrames = 2
+	}
 	# 下面是白色（底色）
 	#重武器
 	spriteType = {
@@ -71,5 +97,30 @@ spriteTypes = {
 		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_at_icon.dds"
 		noOfFrames = 2
 	}
-	#轻aa
+	# 五个特种
+	spriteType = {
+		name = "GFX_unit_LNC_kfc_marine_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_marine_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_LNC_kfc_mountaineers_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mountain_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_LNC_kfc_paratrooper_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_paratroop_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_LNC_kfc_ranger_battalion_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_ranger_battalion_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_LNC_kfc_marine_commando_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_marine_icon.dds"
+		noOfFrames = 2
+	}
 }

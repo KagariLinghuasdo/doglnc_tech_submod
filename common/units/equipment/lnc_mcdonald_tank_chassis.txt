@@ -18,9 +18,8 @@ equipments = {
 			module = easy_maintenance
 			module = mcdonalds_maintenance
 			count < 2
-			}
+		}
 	}
-
 	modern_tank_chassis = {
 		module_count_limit = {
 			module = easy_maintenance
@@ -28,7 +27,6 @@ equipments = {
 			count < 2
 		}
 	}
-
 	super_heavy_tank_chassis = {
 		module_count_limit = {
 			module = easy_maintenance
@@ -36,7 +34,6 @@ equipments = {
 			count < 2
 		}
 	}
-
 	amphibious_tank_chassis = {
 		module_count_limit = {
 			module = easy_maintenance

@@ -2,6 +2,7 @@
  lnc_mcdonalds_decisions:"麦当劳！？"
  decison_eat_lnc_mcdonalds:"吃麦！"
  decison_eat_lnc_mcdonalds_desc:"牢头最喜欢吃的美食，但是在二战期间好像没有这种东西"
+ lnc_start_mcdonald_research_flag:"已开始准备研发麦当劳新品"
 
  ideas_LNC_temporary_research_penalty:"麦当劳新品研发中"
  ideas_LNC_temporary_research_penalty_desc:"我们国家的部分科学家去研究麦当劳新品了"

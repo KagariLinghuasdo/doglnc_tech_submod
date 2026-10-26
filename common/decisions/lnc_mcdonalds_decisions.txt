@@ -62,6 +62,7 @@ lnc_mcdonalds_decisions = {
 			has_country_flag = lnc_finish_mcdonald_research_flag
 			from = {
 				has_tech = lnc_mcdonalds_infantry
+				has_tech = mechanised_infantry
 			}
 			NOT = {
 				has_country_flag = lnc_mcdonald_researching_flag

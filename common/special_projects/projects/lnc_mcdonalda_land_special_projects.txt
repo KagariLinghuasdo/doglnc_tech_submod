@@ -19,7 +19,10 @@ sp_land_mcdonalds_tech = {
 	complexity = sp_complexity.small
 	project_output = {
 		country_effects = {
-			set_country_flag = lnc_finish_mcdonald_research_flag
+			custom_effect_tooltip = lnc_finish_mcdonald_tooltip
+			hidden_effect = {
+				set_country_flag = lnc_finish_mcdonald_research_flag
+			}
 		}
 	}
 	generic_prototype_rewards = {

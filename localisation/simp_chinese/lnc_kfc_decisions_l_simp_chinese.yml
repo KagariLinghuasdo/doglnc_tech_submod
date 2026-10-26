@@ -3,7 +3,20 @@
  decison_eat_lnc_kfc:"吃K！"
  decison_eat_lnc_kfc_desc:"OO最喜欢吃的美食，在牢头决心研究麦之后，OO也按捺不住躁动的心，决心研究K。"
 
+ lnc_start_kfc_research_flag:"已开始准备研发肯德基新品"
  lnc_kfc_researching_flag:"肯德基新品研发中"
+ lnc_kfc_has_complete_marine_research:"已经完成肯德基海军陆战队研发"
 
  decison_research_lnc_kfc_fire_support:"研发肯德基团属支援连"
  decison_research_lnc_kfc_fire_support_desc:"吃饱了才有战斗力"
+ decision_research_lnc_kfc_marine:"研发肯德基海军陆战队"
+ decision_research_lnc_kfc_marine_desc:"肯德基虾堡为您服务"
+ decision_research_lnc_kfc_mountaineers:"研发肯德基山地步兵"
+ decision_research_lnc_kfc_mountaineers_desc:"炸鸡怎么不算一种山珍呢？"
+ decision_research_lnc_kfc_paratrooper:"研发肯德基伞兵"
+ decision_research_lnc_kfc_paratrooper_desc:"天降汉堡，哈！"
+ decision_research_lnc_kfc_ranger_battalion:"研发肯德基游骑兵"
+ decision_research_lnc_kfc_ranger_battalion_desc:"K，无孔不入"
+ decision_research_lnc_kfc_marine_commando:"研发肯德基海军突击队"
+ decision_research_lnc_kfc_marine_commando_desc:"变异的虾堡吗（目移）"
+ 

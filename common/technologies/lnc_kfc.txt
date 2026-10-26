@@ -20,7 +20,7 @@ technologies = {
 			LNC_kfc_modern_tank_destroyer_support
 		}
 	}
-	lnc_kfc_special_support = {
+	lnc_kfc_marine = {
 		allow_branch = {
 			has_country_flag = got_OO_flag
 		}
@@ -30,6 +30,59 @@ technologies = {
 			industry
 		}
 		enable_subunits = {
+			LNC_kfc_marine
+		}
+	}
+	lnc_kfc_mountaineers = {
+		allow_branch = {
+			has_country_flag = got_OO_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = {
+			industry
+		}
+		enable_subunits = {
+			LNC_kfc_mountaineers
+		}
+	}
+	lnc_kfc_paratrooper = {
+		allow_branch = {
+			has_country_flag = got_OO_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = {
+			industry
+		}
+		enable_subunits = {
+			LNC_kfc_paratrooper
+		}
+	}
+	lnc_kfc_ranger_battalion = {
+		allow_branch = {
+			has_country_flag = got_OO_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = {
+			industry
+		}
+		enable_subunits = {
+			LNC_kfc_ranger_battalion
+		}
+	}
+	lnc_kfc_marine_commando = {
+		allow_branch = {
+			has_country_flag = got_OO_flag
+		}
+		start_year = 1936
+		research_cost = 1
+		categories = {
+			industry
+		}
+		enable_subunits = {
+			LNC_kfc_marine_commando
 		}
 	}
 }

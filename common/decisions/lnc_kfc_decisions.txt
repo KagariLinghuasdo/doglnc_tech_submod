@@ -15,8 +15,6 @@ lnc_kfc_decisions = {
 			factor = 0
 		}
 		complete_effect = {
-		}
-		remove_effect = {
 			country_event = LNC_kfc_event.1
 		}
 	}
@@ -52,38 +50,182 @@ lnc_kfc_decisions = {
 			}
 		}
 	}
-	# decision_research_lnc_kfc_special_support = {
-	# 	allowed = {
-	# 	}
-	# 	available = {
-	# 		has_country_flag = lnc_finish_kfc_research_flag
-	# 		NOT = {
-	# 			has_country_flag = lnc_kfc_researching_flag
-	# 		}
-	# 	}
-	# 	visible = {
-	# 		has_country_flag = got_OO_flag
-	# 		has_country_flag = lnc_finish_kfc_research_flag
-	# 	}
-	# 	fire_only_once = yes
-	# 	days_remove = 60
-	# 	ai_will_do = {
-	# 		factor = 0
-	# 	}
-	# 	complete_effect = {
-	# 		hidden_effect = {
-	# 			set_country_flag = lnc_kfc_researching_flag
-	# 		}
-	# 	}
-	# 	remove_effect = {
-	# 		hidden_effect = {
-	# 			clr_country_flag = lnc_kfc_researching_flag
-	# 		}
-	# 		set_technology = {
-	# 			lnc_kfc_special_support = 1
-	# 		}
-	# 	}
-	# }
+	decision_research_lnc_kfc_marine = {
+		allowed = {
+		}
+		available = {
+			from = {
+				has_country_flag = lnc_finish_kfc_research_flag
+				NOT = {
+					has_country_flag = lnc_kfc_researching_flag
+				}
+				has_tech = marines
+			}
+		}
+		visible = {
+			has_country_flag = got_OO_flag
+			has_country_flag = lnc_finish_kfc_research_flag
+		}
+		fire_only_once = yes
+		days_remove = 60
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = lnc_kfc_researching_flag
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				clr_country_flag = lnc_kfc_researching_flag
+				set_country_flag = lnc_kfc_has_complete_marine_research
+			}
+			set_technology = {
+				lnc_kfc_marine = 1
+			}
+		}
+	}
+	decision_research_lnc_kfc_mountaineers = {
+		allowed = {
+		}
+		available = {
+			from = {
+				has_country_flag = lnc_finish_kfc_research_flag
+				NOT = {
+					has_country_flag = lnc_kfc_researching_flag
+				}
+				has_tech = tech_mountaineers
+			}
+		}
+		visible = {
+			has_country_flag = got_OO_flag
+			has_country_flag = lnc_finish_kfc_research_flag
+		}
+		fire_only_once = yes
+		days_remove = 60
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = lnc_kfc_researching_flag
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				clr_country_flag = lnc_kfc_researching_flag
+			}
+			set_technology = {
+				lnc_kfc_mountaineers = 1
+			}
+		}
+	}
+	decision_research_lnc_kfc_paratrooper = {
+		allowed = {
+		}
+		available = {
+			from = {
+				has_country_flag = lnc_finish_kfc_research_flag
+				NOT = {
+					has_country_flag = lnc_kfc_researching_flag
+				}
+				has_tech = paratroopers
+			}
+		}
+		visible = {
+			has_country_flag = got_OO_flag
+			has_country_flag = lnc_finish_kfc_research_flag
+		}
+		fire_only_once = yes
+		days_remove = 60
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = lnc_kfc_researching_flag
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				clr_country_flag = lnc_kfc_researching_flag
+			}
+			set_technology = {
+				lnc_kfc_paratrooper = 1
+			}
+		}
+	}
+	decision_research_lnc_kfc_ranger_battalion = {
+		allowed = {
+		}
+		available = {
+			from = {
+				has_country_flag = lnc_finish_kfc_research_flag
+				NOT = {
+					has_country_flag = lnc_kfc_researching_flag
+				}
+				has_tech = rangers_tech
+			}
+		}
+		visible = {
+			has_country_flag = got_OO_flag
+			has_country_flag = lnc_finish_kfc_research_flag
+		}
+		fire_only_once = yes
+		days_remove = 60
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = lnc_kfc_researching_flag
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				clr_country_flag = lnc_kfc_researching_flag
+			}
+			set_technology = {
+				lnc_kfc_ranger_battalion = 1
+			}
+		}
+	}
+	decision_research_lnc_kfc_marine_commando = {
+		allowed = {
+		}
+		available = {
+			from = {
+				has_country_flag = lnc_finish_kfc_research_flag
+				has_country_flag = lnc_kfc_has_complete_marine_research
+				NOT = {
+					has_country_flag = lnc_kfc_researching_flag
+				}
+			}
+		}
+		visible = {
+			has_country_flag = got_OO_flag
+			has_country_flag = lnc_finish_kfc_research_flag
+		}
+		fire_only_once = yes
+		days_remove = 60
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = lnc_kfc_researching_flag
+			}
+		}
+		remove_effect = {
+			hidden_effect = {
+				clr_country_flag = lnc_kfc_researching_flag
+			}
+			set_technology = {
+				lnc_kfc_marine_commando = 1
+			}
+		}
+	}
 	decision_debug_get_lnc_kfc_tech = {
 		available = {
 			is_debug = yes
